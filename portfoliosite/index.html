@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmet Utku Pelen</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- ! NAVBAR START ! -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link text-white fs-3 mx-3 givemehover" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link text-white fs-3 mx-3 givemehover" href="#">SKILLS</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link text-white fs-3 mx-3 givemehover" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- ! NAVBAR END ! -->
+    <video autoplay muted loop id="background-video" src="video/video.mp4" type="video/mp4"></video>
+    <!-- ! MAIN CONTENT START ! -->
+    <div class="container d-flex align-items-center flex-column text-center" id="home">
+        <img class="mb-5 mt-5 mypicture" src="img/picture.png">
+        <h1 class="text-white fs-1 mt-5 rounded text-uppercase mb-0">Ahmet Utku Pelen</h1>
+        <p class="fs-1 text-white mb-0 mt-5">FULL STACK WEB DEVELOPER <span class="text-danger">&</span> INDUSTRIAL ENGINEER</p>
+    </div>
+    <!-- ! SKILSS ! -->
+    <section class="portfolio mt-5" id="skills">
+        <div class="container mt-5">
+            <!-- Portfolio Section Heading-->
+            <h2 class="text-center fs-1 text-danger mt-5">SKILLS</h2>
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/javascript.png"/>
+                        <div class="popover__content"> <p class="fs-5">JS is the world's most popular programming language.<hr><p class="fs-5">JS is the programming language of the Web.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/react.png"/>
+                        <div class="popover__content"> <p class="fs-5">React is a JS library for building user interfaces.<hr><p class="fs-5">React is used to build single-page applications.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/python.png"/>
+                        <div class="popover__content"> <p class="fs-5">Python is a high-level , general-purpose programming language.<hr><p class="fs-5">Python consistently ranks as one of the most popular programming languages</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/django.png"/>
+                        <div class="popover__content"> <p class="fs-5">Django is a back-end server side web framework.<hr><p class="fs-5">Django makes it possible to build full stack apps using Python.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/css.png"/>
+                        <div class="popover__content"> <p class="fs-5">CSS is the language we use to style an HTML document.<hr><p class="fs-5">CSS describes how HTML elements should be displayed.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/bootstrap.png"/> 
+                        <div class="popover__content"> <p class="fs-5">Bootstrap is a free front-end framework for faster and easier web development<hr><p class="fs-5">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/tailwind.png"/>
+                        <div class="popover__content"> <p class="fs-5">Tailwind CSS is an open source CSS framework<hr><p class="fs-5">Tailwind helps us build applications faster and more good looking.</p></p></div> 
+                    </div> 
+                </div>
+                <div class="col-md-12 col-lg-6 mt-5 mb-5">
+                    <div class="popover__wrapper"> 
+                        <img class="popover__title" src="img/html.png"/>
+                        <div class="popover__content"> <p class="fs-5">HTML is the standard markup language for Web pages.<hr><p class="fs-5">HTML describes the structure of a Web page</p></p></div> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! CONTACT ! -->
+    <section id="contact" class="d-flex justify-content-center align-items-center mycontactform">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-12 m-auto">
+                    <form class="custom-form contact-form" role="form" method="POST" action="https://formspree.io/f/mwkgawwo">
+                        <h2 class="hero-title fs-1 text-center text-danger mt-5 pb-5">CONTACT FORM</h2>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-floating">
+                                    <input type="text" name="full-name" id="full-name" class="form-control" placeholder="Full Name" required>
+                                    <label for="floatingInput">Full Name</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <div class="form-floating mb-4 p-0">
+                                    <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control givememargintop" placeholder="Email Address" required>
+                                    <label for="email">Email address</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Message"></textarea>  
+                                    <label for="floatingTextarea">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-10 mx-auto">
+                                <button type="submit" class="form-control mt-4 givemehover2">SEND MESSAGE</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ! MAIN CONTENT END ! -->
+    <!-- ! FOOTER START ! -->
+    <footer class="d-flex flex-wrap bg-transparent container justify-content-between align-items-center py-3 my-4">
+        <div class="col-md-4 d-flex align-items-center">
+          <span class="text-white fs-1">© AUP</span>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-white fs-3 givemehover" target="_blank" href="https://github.com/AhmetUtkuPelen"><i class="bi bi-github"></i></a></li>
+          <li class="ms-3"><a class="text-white fs-3 givemehover" target="_blank" href="https://www.linkedin.com/in/ahmet-utku-pelen-4941b820b/"><i class="bi bi-linkedin"></i></a></li>
+          <li class="ms-3"><a class="text-white fs-3 givemehover" target="_blank" href="https://www.instagram.com/rngd_aup/"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </footer>
+    <!-- ! FOOTER END ! -->
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
